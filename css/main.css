@@ -31,6 +31,21 @@ svg {
   cursor: pointer;
 }
 
+.btn path:nth-child(2):hover {
+  fill: #f60;
+  transition: 200ms linear;
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
+}
+
+.is-engaged .btn path:nth-child(2) {
+  fill: #f60;
+  transition: 200ms linear;
+}
+
+.is-disengaged .btn path:nth-child(2) {
+  fill: #630;
+  transition: 200ms linear;
 }
